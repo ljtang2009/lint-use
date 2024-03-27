@@ -1,12 +1,12 @@
-name: Build
+name: Deploy Docs
 
 on:
   push:
     branches: ['main']
-    paths-ignore: ['docs/**/*']
+    paths: ['docs/**/*']
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     environment: production
@@ -48,13 +48,16 @@ jobs:
 
       - name: Build
         run: |
-          pnpm build
+          pnpm docs:build
 
-      - name: Release
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v3.0
+        with:
+          publish-dir: './docs/.vitepress/dist'
+          production-branch: main
+          github-token: ${{ vars.GH_TOKEN }}
+          deploy-message: "Deploy from GitHub Actions"
         env:
-          GITHUB_TOKEN: ${{ vars.GH_TOKEN }}
-          NPM_TOKEN: ${{ vars.NPM_TOKEN }}
-          # @see https://typicode.github.io/husky/how-to.html#ci-server-and-docker
-          HUSKY: 0
-        run: |
-          pnpm run release
+          NETLIFY_AUTH_TOKEN: ${{ vars.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
+
