@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/ljtang2009/lint-use/compare/v1.0.0...v1.0.1) (2024-03-27)
+
+
+### Bug Fixes
+
+* **docs:** :bug: correct readme ([632572a](https://github.com/ljtang2009/lint-use/commit/632572aaa00e7c80e6ff758d0dff884d9368b6cc))
+
 # [1.0.0](https://github.com/ljtang2009/lint-use/compare/v0.0.1...v1.0.0) (2024-03-27)
 
 
