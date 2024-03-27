@@ -32,14 +32,14 @@
     "typescript-eslint"
   ],
   "author": "Tang Lijin <ho_ho_gl@hotmail.com>",
-  "homepage": "https://github.com/ljtang2009/lint-pack/",
+  "homepage": "https://github.com/ljtang2009/lint-use/",
   "bugs": {
-    "url": "https://github.com/ljtang2009/lint-pack/issues",
+    "url": "https://github.com/ljtang2009/lint-use/issues",
     "email": "ho_ho_gl@hotmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ljtang2009/lint-pack.git"
+    "url": "https://github.com/ljtang2009/lint-use.git"
   },
   "license": "MIT",
   "devDependencies": {
