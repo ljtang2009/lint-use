@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../src/eslint/index.ts"],"names":[],"mappings":"AAAA,OAAO,OAAO,MAAM,oBAAoB,CAAC;AACzC,OAAO,EAAE,MAAM,eAAe,CAAC;AAC/B,OAAO,SAAS,MAAM,sBAAsB,CAAC;AAC7C,OAAO,IAAI,MAAM,iBAAiB,CAAC;AAEnC,eAAe;IACb,OAAO;IACP,EAAE;IACF,SAAS;IACT,IAAI;CACL,CAAC"}

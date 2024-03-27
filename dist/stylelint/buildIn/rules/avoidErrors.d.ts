@@ -1,0 +1,43 @@
+declare const _default: {
+    'no-descending-specificity': boolean;
+    'declaration-block-no-duplicate-custom-properties': boolean;
+    'declaration-block-no-duplicate-properties': boolean;
+    'font-family-no-duplicate-names': boolean;
+    'keyframe-block-no-duplicate-selectors': boolean;
+    'no-duplicate-at-import-rules': boolean;
+    'no-duplicate-selectors': (boolean | {
+        disallowInList: boolean;
+    })[];
+    'block-no-empty': boolean;
+    'comment-no-empty': boolean;
+    'no-empty-source': boolean;
+    'color-no-invalid-hex': boolean;
+    'function-calc-no-unspaced-operator': boolean;
+    'keyframe-declaration-no-important': boolean;
+    'media-query-no-invalid': boolean;
+    'named-grid-areas-no-invalid': boolean;
+    'no-invalid-double-slash-comments': boolean;
+    'no-invalid-position-at-import-rule': boolean;
+    'string-no-newline': boolean;
+    'no-irregular-whitespace': boolean;
+    'custom-property-no-missing-var-function': boolean;
+    'font-family-no-missing-generic-family-keyword': boolean;
+    'function-linear-gradient-no-nonstandard-direction': boolean;
+    'declaration-block-no-shorthand-property-overrides': boolean;
+    'selector-anb-no-unmatchable': boolean;
+    'annotation-no-unknown': boolean;
+    'at-rule-no-unknown': boolean;
+    'declaration-property-value-no-unknown': boolean;
+    'function-no-unknown': boolean;
+    'media-feature-name-no-unknown': boolean;
+    'media-feature-name-value-no-unknown': boolean;
+    'no-unknown-animations': boolean;
+    'no-unknown-custom-properties': boolean;
+    'property-no-unknown': boolean;
+    'selector-pseudo-class-no-unknown': boolean;
+    'selector-pseudo-element-no-unknown': boolean;
+    'selector-type-no-unknown': boolean;
+    'unit-no-unknown': boolean;
+};
+export default _default;
+//# sourceMappingURL=avoidErrors.d.ts.map
