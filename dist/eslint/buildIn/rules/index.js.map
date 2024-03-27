@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../src/eslint/buildIn/rules/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,MAAM,YAAY,CAAC;AAC5B,OAAO,gBAAgB,MAAM,uBAAuB,CAAC;AACrD,OAAO,WAAW,MAAM,kBAAkB,CAAC;AAC3C,OAAO,gBAAgB,MAAM,uBAAuB,CAAC;AAErD,eAAe;IACb,GAAG,EAAE,CAAC,OAAO,CAAC,WAAW,CAAC,KAAK;IAC/B,GAAG,gBAAgB;IACnB,GAAG,WAAW;IACd,GAAG,gBAAgB;CACpB,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/eslint/stylistic/index.ts"],"names":[],"mappings":"AAAA,OAAO,SAAS,MAAM,0BAA0B,CAAC;AACjD,OAAO,KAAK,MAAM,YAAY,CAAC;AAE/B,eAAe;IACb,OAAO,EAAE;QACP,YAAY,EAAE,SAAS;KACxB;IACD,KAAK,EAAE,KAAK,CAAC,QAAQ,CAAC,YAAY,CAAC;CACpC,CAAC"}

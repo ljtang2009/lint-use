@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.stylelint": "explicit"
+  },
+  "eslint.experimental.useFlatConfig": true,
+  "eslint.trace.server": "verbose",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "jsonc",
+    "json5"
+  ],
+  // "css.validate": false,
+  // "less.validate": false,
+  // "scss.validate": false,
+  "stylelint.packageManager": "pnpm"
+}
