@@ -26,7 +26,10 @@
     "eslint:fix": "time eslint --fix .",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [
     "eslint",
@@ -49,21 +52,22 @@
     "@commitlint/config-conventional": "^19.1.0",
     "@semantic-release/changelog": "^6.0.3",
     "@semantic-release/git": "^10.0.1",
-    "commitizen": "^4.3.0",
-    "cz-git": "^1.9.0",
-    "husky": "^9.0.11",
-    "semantic-release": "^23.0.6",
     "@types/eslint": "^8.56.3",
     "@types/eslint__js": "^8.42.3",
     "@vitest/ui": "^1.3.1",
+    "commitizen": "^4.3.0",
+    "cz-git": "^1.9.0",
     "desm": "^1.3.1",
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-flat-config-viewer": "^0.1.11",
     "globals": "^14.0.0",
+    "husky": "^9.0.11",
     "lodash": "^4.17.21",
+    "semantic-release": "^23.0.6",
     "typescript": "^5.3.3",
     "vite": "^5.1.4",
+    "vitepress": "^1.0.1",
     "vitest": "^1.3.1"
   },
   "dependencies": {
