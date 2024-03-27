@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/ljtang2009/lint-use/compare/v1.0.1...v1.0.2) (2024-03-27)
+
+
+### Performance Improvements
+
+* **src:** :zap: auto generate dist ([0813f53](https://github.com/ljtang2009/lint-use/commit/0813f53629a04dce65d70be72a56a6b147da687a))
+
 ## [1.0.1](https://github.com/ljtang2009/lint-use/compare/v1.0.0...v1.0.1) (2024-03-27)
 
 
