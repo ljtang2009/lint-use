@@ -1,9 +1,11 @@
 {
   "name": "lint-use",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Collection of Lint Utilities",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
