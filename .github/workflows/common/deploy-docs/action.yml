@@ -2,7 +2,7 @@ name: Deploy docs
 
 description: build and deloy docs to netlify
 
-inputs
+inputs:
   github-token:
     required: true
   netlify-auth-token:
