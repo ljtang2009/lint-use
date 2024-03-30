@@ -59,10 +59,10 @@ jobs:
         run: |
           pnpm run release
 
-      - name: Generate docs
+      - name: Generate type docs
         run: |
           pnpm docs:typedoc
 
-  deploy-docs:
-    uses: ./.github/workflows/deploy-docs.yml
+      - name: deploy docs
+        uses: ./.github/workflows/deploy-docs.yml
 
