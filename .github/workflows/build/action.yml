@@ -63,6 +63,5 @@ jobs:
         run: |
           pnpm docs:typedoc
 
-      - name: deploy docs
-        uses: ./.github/workflows/deploy-docs
-
+      # - name: deploy docs
+      #   uses: ./.github/workflows/deploy-docs
