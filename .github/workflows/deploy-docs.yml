@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
 
-    environment: production
+    # environment: production
 
     steps:
       - name: Checkout
@@ -29,8 +29,8 @@ jobs:
         with:
           publish-dir: './docs/.vitepress/dist'
           production-branch: main
-          github-token: ${{ vars.GH_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
           deploy-message: "Deploy from GitHub Actions"
         env:
-          NETLIFY_AUTH_TOKEN: ${{ vars.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
