@@ -2,6 +2,14 @@ name: Deploy docs
 
 description: build and deloy docs to netlify
 
+inputs
+  github-token:
+    required: true
+  netlify-auth-token:
+    required: true
+  netlify-side-id:
+    required: true
+
 runs:
   using: "composite"
   steps:
@@ -15,8 +23,8 @@ runs:
       with:
         publish-dir: './docs/.vitepress/dist'
         production-branch: main
-        github-token: ${{ secrets.GH_TOKEN }}
+        github-token: ${{ inputs.github-token }}
         deploy-message: "Deploy from GitHub Actions"
       env:
-        NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-        NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
+        NETLIFY_AUTH_TOKEN: ${{ inputs.netlify-auth-token }}
+        NETLIFY_SITE_ID: ${{ inputs.netlify-side-id }}
