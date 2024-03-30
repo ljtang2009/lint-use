@@ -30,6 +30,6 @@ runs:
         restore-keys: |
           ${{ runner.os }}-pnpm-store-
 
-      - name: Install
-        run: |
-          pnpm install
+      # - name: Install
+      #   run: |
+      #     pnpm install
