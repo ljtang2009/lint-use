@@ -1,12 +1,13 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: "lint use",
+  title: "LintUse",
   description: "Collection of Lint Utilities",
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'TypeDoc', link: '/typedoc/index.html', target: '_blank'}
     ],
 
     sidebar: [

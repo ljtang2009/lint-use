@@ -58,3 +58,11 @@ jobs:
           HUSKY: 0
         run: |
           pnpm run release
+
+      - name: Generate docs
+        run: |
+          pnpm docs:typedoc
+
+  deploy-docs:
+    uses: ./.github/workflows/deploy-docs.yml
+
