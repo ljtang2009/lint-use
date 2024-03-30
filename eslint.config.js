@@ -46,7 +46,7 @@ export default [
   },
   {
     ..._.merge(_.cloneDeep(baseTSConfig), {
-      files:           ['vite.config.ts', 'jest.config.ts'],
+      files:           ['vite.config.ts'],
       languageOptions: {
         parserOptions: {
           project:         join(import.meta.url, 'tsconfig.node.json'),
@@ -58,7 +58,7 @@ export default [
   {
     ..._.merge(_.cloneDeep(eslint.json.default), {
       files:   ['**/*.json', '**/*.jsonc', '**/*.json5'],
-      ignores: ['docs/.vitepress/dist/**/*.json'],
+      ignores: ['docs/.vitepress/dist/**/*'],
     }),
   },
 ];
