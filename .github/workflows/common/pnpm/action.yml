@@ -1,5 +1,7 @@
 name: Set pnpm enveronment
 
+description: set pnpm enveronment and intall dependencies.
+
 runs:
   using: "composite"
   steps:
