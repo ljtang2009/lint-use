@@ -1,9 +1,3 @@
-import buildIn from './buildIn/index.js';
-import order from './order/index.js';
-import prettier from './prettier/index.js';
-
-export default {
-  buildIn,
-  order,
-  prettier,
-};
+export * as buildIn from './buildIn/index.js';
+export * as order from './order/index.js';
+export * as prettier from './prettier/index.js';

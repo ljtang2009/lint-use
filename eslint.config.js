@@ -1,13 +1,13 @@
 import globals from 'globals';
-import lintConfig from './dist/index.js';
+import { eslint } from './dist/index.js';
 import _ from 'lodash';
 import { dirname, join } from 'desm';
 
 const __dirname = dirname(import.meta.url);
 
 const baseConfig = _.merge(
-  _.cloneDeep(lintConfig.eslint.buildIn),
-  lintConfig.eslint.stylistic,
+  _.cloneDeep(eslint.buildIn.default),
+  eslint.stylistic.default,
   {
     languageOptions: {
       sourceType: 'module',
@@ -19,7 +19,7 @@ const baseConfig = _.merge(
   },
 );
 
-const baseTSConfig = _.merge(_.cloneDeep(baseConfig), lintConfig.eslint.ts);
+const baseTSConfig = _.merge(_.cloneDeep(baseConfig), eslint.ts.default);
 
 export default [
   {
@@ -50,8 +50,9 @@ export default [
     }),
   },
   {
-    ..._.merge(_.cloneDeep(lintConfig.eslint.json), {
-      files: ['**/*.json', '**/*.jsonc', '**/*.json5'],
+    ..._.merge(_.cloneDeep(eslint.json.default), {
+      files:   ['**/*.json', '**/*.jsonc', '**/*.json5'],
+      ignores: ['docs/.vitepress/dist/**/*.json'],
     }),
   },
 ];
