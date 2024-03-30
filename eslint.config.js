@@ -24,7 +24,13 @@ const baseTSConfig = _.merge(_.cloneDeep(baseConfig), eslint.ts.default);
 export default [
   {
     ..._.merge(_.cloneDeep(baseConfig), {
-      files: ['eslint.config.js', 'jest.config.js'],
+      files:   ['**/*.js', '**/*.cjs'],
+      ignores: [
+        'dist/**/*',
+        'docs/public/typedoc/**/*',
+        'docs/.vitepress/cache/**/*',
+        'docs/.vitepress/dist/**/*',
+      ],
     }),
   },
   {
