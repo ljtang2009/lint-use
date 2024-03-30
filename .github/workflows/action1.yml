@@ -9,8 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - uses: ./.github/shared_code.yml  # Reference to shared code
 
       # Here goes the shared code
 
