@@ -24,18 +24,3 @@ jobs:
           github-token: ${{ secrets.GH_TOKEN }}
           netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           netlify-side-id: ${{ vars.NETLIFY_SITE_ID }}
-
-      # - name: Build
-      #   run: |
-      #     pnpm docs:build
-
-      # - name: Deploy to Netlify
-      #   uses: nwtgck/actions-netlify@v3.0
-      #   with:
-      #     publish-dir: './docs/.vitepress/dist'
-      #     production-branch: main
-      #     github-token: ${{ secrets.GH_TOKEN }}
-      #     deploy-message: "Deploy from GitHub Actions"
-      #   env:
-      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      #     NETLIFY_SITE_ID: ${{ vars.NETLIFY_SITE_ID }}
