@@ -1,8 +1,11 @@
-name: checkout
+name: Checkout
+
+description: check out source code
 
 runs:
   using: "composite"
   steps:
-    uses: actions/checkout@v4
-        with:
-          persist-credentials: false
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: false
