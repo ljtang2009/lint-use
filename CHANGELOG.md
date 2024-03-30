@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/ljtang2009/lint-use/compare/v1.0.2...v1.0.3) (2024-03-30)
+
+
+### Performance Improvements
+
+* **src:** :zap: optional export ([56929ab](https://github.com/ljtang2009/lint-use/commit/56929abec60f106ee96b16d79d8f6eb46f79203e))
+
 ## [1.0.2](https://github.com/ljtang2009/lint-use/compare/v1.0.1...v1.0.2) (2024-03-27)
 
 
