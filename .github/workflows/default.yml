@@ -18,7 +18,7 @@ jobs:
           persist-credentials: false
 
       - name: Set pnpm version
-        uses: ./.github/workflows/common/pnpm/action.yml
+        uses: ./common/pnpm/action.yml
 
       # - name: Set pnpm version
       #   uses: pnpm/action-setup@v3
