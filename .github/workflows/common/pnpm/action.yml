@@ -31,5 +31,6 @@ runs:
           ${{ runner.os }}-pnpm-store-
 
     - name: Install
+      shell: bash
       run: |
         pnpm install
