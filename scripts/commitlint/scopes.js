@@ -16,7 +16,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 let scopes = ['src', 'docs', 'other'];
 
-const __SCOPE_CACHE_PATH = path.resolve(
+const SCOPE_CACHE_PATH = path.resolve(
   __dirname,
   '.././.git/scope-cache.json',
 );
@@ -24,19 +24,19 @@ const __SCOPE_CACHE_PATH = path.resolve(
 // @see https://github.com/Zhengqbbb/czgit-playground/blob/cache-scope/commitlint.config.cjs
 const setCacheScope = (scope) => {
   if (!scope || scopes.includes(scope)) return;
-  if (!fs.existsSync(__SCOPE_CACHE_PATH)) {
+  if (!fs.existsSync(SCOPE_CACHE_PATH)) {
     fs.writeFileSync(
-      __SCOPE_CACHE_PATH,
+      SCOPE_CACHE_PATH,
       JSON.stringify([scope], null, 2),
       'utf8',
     );
   } else {
     const tmp = new Set(
-      JSON.parse(fs.readFileSync(__SCOPE_CACHE_PATH, 'utf8')),
+      JSON.parse(fs.readFileSync(SCOPE_CACHE_PATH, 'utf8')),
     );
     tmp.add(scope);
     fs.writeFileSync(
-      __SCOPE_CACHE_PATH,
+      SCOPE_CACHE_PATH,
       JSON.stringify([...tmp], null, 2),
       'utf8',
     );
@@ -44,16 +44,16 @@ const setCacheScope = (scope) => {
 };
 
 const getCacheScope = () => {
-  if (!fs.existsSync(__SCOPE_CACHE_PATH)) {
+  if (!fs.existsSync(SCOPE_CACHE_PATH)) {
     return [];
-  } else {
-    return JSON.parse(fs.readFileSync(__SCOPE_CACHE_PATH, 'utf8'));
   }
+  return JSON.parse(fs.readFileSync(SCOPE_CACHE_PATH, 'utf8'));
 };
 
 scopes = [...scopes, ...getCacheScope()];
 
 const formatMessageCB = ({ scope }) => {
+  // eslint-disable-next-line no-control-regex
   setCacheScope(scope.replaceAll(/\x1B\[[0-9;]*[mG]/g, ''));
 };
 
