@@ -28,7 +28,8 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "docs:typedoc": "typedoc"
+    "docs:typedoc": "typedoc",
+    "markdownlint": "markdownlint-cli2"
   },
   "keywords": [
     "eslint",
@@ -62,7 +63,9 @@
     "eslint-flat-config-viewer": "^0.1.11",
     "globals": "^14.0.0",
     "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
     "lodash": "^4.17.21",
+    "markdownlint-cli2": "^0.12.1",
     "semantic-release": "^23.0.6",
     "typedoc": "^0.25.12",
     "typescript": "^5.3.3",

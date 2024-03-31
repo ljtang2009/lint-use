@@ -2,7 +2,8 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.fixAll.stylelint": "explicit"
+    "source.fixAll.stylelint": "explicit",
+    "source.fixAll.markdownlint": "explicit"
   },
   "eslint.experimental.useFlatConfig": true,
   "eslint.trace.server": "verbose",
