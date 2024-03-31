@@ -1,3 +1,17 @@
+# [1.1.0](https://github.com/ljtang2009/lint-use/compare/v1.0.3...v1.1.0) (2024-03-31)
+
+
+### Features
+
+* **src:** :sparkles: add markdown lint ([fb3a451](https://github.com/ljtang2009/lint-use/commit/fb3a4514f377419b78b821ff33b9aae0651102b3))
+
+
+### Performance Improvements
+
+* **other:** :zap: add browserlist ([4a0e6a7](https://github.com/ljtang2009/lint-use/commit/4a0e6a7a76a454e5ac0d8019ee423683fcf22500))
+* **other:** :zap: add git hook pre-commit to lint ([d0c9287](https://github.com/ljtang2009/lint-use/commit/d0c9287ffb679c507d1bb303210479f7bd9f3565))
+* **other:** :zap: add lint-stage ([b24bf54](https://github.com/ljtang2009/lint-use/commit/b24bf5414417fe9b416596c4ce87dcc590fd5abc))
+
 ## [1.0.3](https://github.com/ljtang2009/lint-use/compare/v1.0.2...v1.0.3) (2024-03-30)
 
 
