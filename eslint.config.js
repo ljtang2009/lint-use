@@ -24,7 +24,7 @@ const baseTSConfig = _.merge(_.cloneDeep(baseConfig), eslint.ts.default);
 export default [
   {
     ..._.merge(_.cloneDeep(baseConfig), {
-      files:   ['**/*.js', '**/*.cjs'],
+      files:   ['**/*.js', '**/*.cjs', '**/*.mjs'],
       ignores: [
         'dist/**/*',
         'docs/public/typedoc/**/*',
