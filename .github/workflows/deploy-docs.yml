@@ -15,7 +15,7 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Set pnpm enveronment
+      - name: Set pnpm environment
         uses: ./.github/workflows/common/pnpm
 
       - name: Deploy to Netlify

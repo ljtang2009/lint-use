@@ -1,6 +1,6 @@
 name: Deploy docs
 
-description: build and deloy docs to netlify
+description: build and deploy docs to netlify
 
 inputs:
   github-token:
