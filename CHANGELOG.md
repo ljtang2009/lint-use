@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/ljtang2009/lint-use/compare/v1.1.0...v1.2.0) (2024-04-01)
+
+
+### Features
+
+* **other:** :sparkles: add cspell ([3985dcd](https://github.com/ljtang2009/lint-use/commit/3985dcd56bc877a43d5cfd702ec622df8750424e))
+
 # [1.1.0](https://github.com/ljtang2009/lint-use/compare/v1.0.3...v1.1.0) (2024-03-31)
 
 
