@@ -30,8 +30,8 @@
   "allowCompoundWords": true,
   "patterns": [
     {
-      "name": "github_action_use",
-      "pattern": ["/\\s*uses:.*/"]
+      "name": "github_action",
+      "pattern": ["/:\\s.*//"]
     },
     {
       "name": "package_author",
@@ -46,7 +46,7 @@
     {
       "languageId": "yaml",
       "locale": "*",
-      "ignoreRegExpList": ["github_action_use"]
+      "ignoreRegExpList": ["github_action"]
     },
     {
       "languageId": "json",
