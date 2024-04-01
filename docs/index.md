@@ -16,12 +16,12 @@ hero:
 
 features:
   - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Lorem ipsum dolor sit , consectetur
   - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Lorem ipsum dolor sit , consectetur
   - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Lorem ipsum dolor sit , consectetur
   - title: Feature D
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: Lorem ipsum dolor sit , consectetur
 ---
 

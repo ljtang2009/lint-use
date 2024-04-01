@@ -1,6 +1,6 @@
-name: Set pnpm enveronment
+name: Set pnpm environment
 
-description: set pnpm enveronment and intall dependencies.
+description: set pnpm environment and intall dependencies.
 
 runs:
   using: "composite"

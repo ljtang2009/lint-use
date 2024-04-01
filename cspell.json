@@ -1,0 +1,57 @@
+{
+  "ignorePaths": [".git", "pnpm-lock.yaml", ".prettierignore", ".gitignore"],
+  "enableGlobDot": true,
+  "useGitignore": true,
+  "cache": {
+    "useCache": false
+  },
+  "dictionaries": [
+    "custom-words",
+    "en_US",
+    "companies",
+    "softwareTerms",
+    "misc",
+    "typescript",
+    "node",
+    "html",
+    "css",
+    "bash",
+    "fonts",
+    "filetypes",
+    "npm"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-words",
+      "path": "./.cspell/custom-words.txt",
+      "addWords": true
+    }
+  ],
+  "allowCompoundWords": true,
+  "patterns": [
+    {
+      "name": "github_action_use",
+      "pattern": ["/\\s*uses:.*/"]
+    },
+    {
+      "name": "package_author",
+      "pattern": ["/\\s*\"author\":.*/"]
+    }
+  ],
+  "languageSettings": [
+    {
+      "languageId": "*",
+      "locale": "*"
+    },
+    {
+      "languageId": "yaml",
+      "locale": "*",
+      "ignoreRegExpList": ["github_action_use"]
+    },
+    {
+      "languageId": "json",
+      "locale": "*",
+      "ignoreRegExpList": ["package_author"]
+    }
+  ]
+}
