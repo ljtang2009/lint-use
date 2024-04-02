@@ -1,7 +1,8 @@
+codecov
 desm
+Gitee
 iife
 redeclaration
 tseslint
 unspaced
 vitepress
-Gitee
