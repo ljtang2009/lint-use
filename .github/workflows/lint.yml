@@ -1,0 +1,30 @@
+name: 🧹 Lint
+
+on:
+  push:
+    paths-ignore: ['docs/**/*']
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+
+# Cancel prev CI if new commit come
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: macos-14
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set pnpm environment
+        uses: ./.github/workflows/common/pnpm
+
+      - name: Lint
+        run: |
+          pnpm lint
