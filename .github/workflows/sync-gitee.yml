@@ -1,0 +1,26 @@
+name: 🔀 Sync mirror to Gitee
+
+on:
+  push:
+  pull_request:
+  create:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  Mirror:
+    if: github.repository == 'ljtang2009/lint-use'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync
+        uses: wearerequired/git-mirror-action@master
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.GITEE_SSH_PRIVATE_KEY }}
+        with:
+          source-repo: 'git@github.com:ljtang2009/lint-use.git'
+          destination-repo: 'git@gitee.com:tanglijin2009/lint-use.git'
+
