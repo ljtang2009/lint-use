@@ -25,6 +25,10 @@ jobs:
       - name: Set pnpm environment
         uses: ./.github/workflows/common/pnpm
 
+      - name: Build
+        run: |
+          pnpm build
+
       - name: Lint
         run: |
           pnpm lint
