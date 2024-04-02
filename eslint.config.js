@@ -30,6 +30,7 @@ export default [
         'docs/public/typedoc/**/*',
         'docs/.vitepress/cache/**/*',
         'docs/.vitepress/dist/**/*',
+        'coverage/**/*',
       ],
     }),
   },
@@ -46,7 +47,7 @@ export default [
   },
   {
     ..._.merge(_.cloneDeep(baseTSConfig), {
-      files:           ['vite.config.ts'],
+      files:           ['vite.config.ts', 'vitest.config.ts'],
       languageOptions: {
         parserOptions: {
           project:         join(import.meta.url, 'tsconfig.node.json'),
@@ -58,7 +59,10 @@ export default [
   {
     ..._.merge(_.cloneDeep(eslint.json.default), {
       files:   ['**/*.json', '**/*.jsonc', '**/*.json5'],
-      ignores: ['docs/.vitepress/dist/**/*'],
+      ignores: [
+        'docs/.vitepress/dist/**/*',
+        'coverage/**/*',
+      ],
     }),
   },
 ];

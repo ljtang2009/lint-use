@@ -5,7 +5,7 @@ on:
     paths-ignore: ['docs/**/*']
 
 jobs:
-  build:
+  Build:
     runs-on: ubuntu-latest
 
     steps:
@@ -40,9 +40,3 @@ jobs:
           github-token: ${{ secrets.GH_TOKEN }}
           netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           netlify-side-id: ${{ vars.NETLIFY_SITE_ID }}
-
-      - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v4.0.1
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          slug: ljtang2009/lint-use

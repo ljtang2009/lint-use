@@ -13,7 +13,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  test:
+  Lint:
     runs-on: macos-14
 
     steps:
