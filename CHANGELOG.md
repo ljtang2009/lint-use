@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/ljtang2009/lint-use/compare/v1.2.0...v1.2.1) (2024-04-06)
+
+
+### Performance Improvements
+
+* **other:** :zap: to release ([590d19c](https://github.com/ljtang2009/lint-use/commit/590d19c23d035d18150a814df2be048b2dbfd8b6))
+
 # [1.2.0](https://github.com/ljtang2009/lint-use/compare/v1.1.0...v1.2.0) (2024-04-01)
 
 
