@@ -47,7 +47,10 @@ export default [
   },
   {
     ..._.merge(_.cloneDeep(baseTSConfig), {
-      files:           ['vite.config.ts', 'vitest.config.ts'],
+      files: [
+        '*.ts',
+        'docs/**/*.ts',
+      ],
       languageOptions: {
         parserOptions: {
           project:         join(import.meta.url, 'tsconfig.node.json'),

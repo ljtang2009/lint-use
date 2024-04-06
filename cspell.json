@@ -1,5 +1,5 @@
 {
-  "ignorePaths": [".git", "pnpm-lock.yaml", ".prettierignore", ".gitignore"],
+  "ignorePaths": [".git", "pnpm-lock.yaml", ".prettierignore", ".gitignore", "package.json"],
   "enableGlobDot": true,
   "useGitignore": true,
   "cache": {
