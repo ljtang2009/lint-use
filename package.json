@@ -3,9 +3,7 @@
   "version": "1.2.0",
   "description": "Collection of Lint Utilities",
   "type": "module",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
