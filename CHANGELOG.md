@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/ljtang2009/lint-use/compare/v1.2.1...v1.2.2) (2024-04-06)
+
+
+### Performance Improvements
+
+* **other:** :zap: add .npmrc ([172505e](https://github.com/ljtang2009/lint-use/commit/172505eda30d5e7efd25b39665f38817ad5ee684))
+
 ## [1.2.1](https://github.com/ljtang2009/lint-use/compare/v1.2.0...v1.2.1) (2024-04-06)
 
 
