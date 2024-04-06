@@ -1,5 +1,5 @@
 {
-  "name": "lint-use",
+  "name": "@ljtang2009/lint-use",
   "version": "0.0.1",
   "description": "Collection of Lint Utilities",
   "type": "module",
@@ -43,7 +43,7 @@
     "stylelint",
     "typescript-eslint"
   ],
-  "author": "Tang Lijin <ho_ho_gl@hotmail.com>",
+  "author": "Logan Tang <ho_ho_gl@hotmail.com>",
   "homepage": "https://github.com/ljtang2009/lint-use/",
   "bugs": {
     "url": "https://github.com/ljtang2009/lint-use/issues",
