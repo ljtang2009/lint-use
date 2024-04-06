@@ -8,7 +8,7 @@ export default {
     stylelint.order.default,
     stylelint.prettier.default,
     {
-      ignoreFiles: ['docs/public/typedoc/**/*.css'],
+      ignoreFiles: ['docs/public/typedoc/**/*', 'coverage/**/*'],
     },
   ),
 };

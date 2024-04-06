@@ -1,5 +1,13 @@
 {
-  "ignorePaths": [".git", "pnpm-lock.yaml", ".prettierignore", ".gitignore", "package.json"],
+  "ignorePaths": [
+    ".git",
+    "pnpm-lock.yaml",
+    ".prettierignore",
+    ".gitignore",
+    "package.json",
+    "**/*.psd",
+    "CHANGELOG.md"
+  ],
   "enableGlobDot": true,
   "useGitignore": true,
   "cache": {
