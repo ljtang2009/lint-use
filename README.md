@@ -26,4 +26,4 @@
 [commitizen-image]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
 [commitizen-url]: http://commitizen.github.io/cz-cli/
 
-Collection of Lint Utilities
+Collection of Lint Utilities.
