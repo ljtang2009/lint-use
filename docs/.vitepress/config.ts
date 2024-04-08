@@ -88,5 +88,9 @@ export default defineConfig({
     },
 
     externalLinkIcon: true,
+
+    search: {
+      provider: 'local',
+    },
   },
 });
