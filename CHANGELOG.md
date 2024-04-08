@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/ljtang2009/lint-use/compare/v1.3.0...v1.3.1) (2024-04-08)
+
+
+### Performance Improvements
+
+* **other:** :zap: update readme ([a9694a1](https://github.com/ljtang2009/lint-use/commit/a9694a171e1b94cfa094e03d94ee1c93add7fa5b))
+
 # [1.3.0](https://github.com/ljtang2009/lint-use/compare/v1.2.2...v1.3.0) (2024-04-08)
 
 
