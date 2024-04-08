@@ -18,8 +18,8 @@
 [github-action-sync-mirror-to-gitee-image]: https://github.com/ljtang2009/lint-use/actions/workflows/sync-gitee.yml/badge.svg
 [github-action-sync-mirror-to-gitee-url]: https://github.com/ljtang2009/lint-use/actions/workflows/sync-gitee.yml
 
-[npm-image]: http://img.shields.io/npm/v/lint-use.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/lint-use
+[npm-image]: http://img.shields.io/npm/v/@ljtang2009/lint-use.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/@ljtang2009/lint-use
 
 [codecov-image]: https://codecov.io/gh/ljtang2009/lint-use/graph/badge.svg?token=PJP8KHQJ0Q
 [codecov-url]: https://codecov.io/gh/ljtang2009/lint-use

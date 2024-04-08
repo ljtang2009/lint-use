@@ -64,6 +64,7 @@ export default [
       files:   ['**/*.json', '**/*.jsonc', '**/*.json5'],
       ignores: [
         'docs/.vitepress/dist/**/*',
+        'docs/data/**/*',
         'coverage/**/*',
       ],
     }),
