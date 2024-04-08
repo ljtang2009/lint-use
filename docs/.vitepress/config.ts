@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+import { join } from 'desm';
 
 export default defineConfig({
   title:       'LintUse',
@@ -8,6 +9,13 @@ export default defineConfig({
   markdown:    {
     lineNumbers:          true,
     defaultHighlightLang: 'JavaScript',
+  },
+  vite: {
+    resolve: {
+      alias: {
+        '@': join(import.meta.url, '..'),
+      },
+    },
   },
   themeConfig: {
     logo: {
@@ -88,5 +96,9 @@ export default defineConfig({
     },
 
     externalLinkIcon: true,
+
+    search: {
+      provider: 'local',
+    },
   },
 });
