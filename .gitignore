@@ -132,3 +132,4 @@ dist
 docs/.vitepress/dist
 docs/.vitepress/cache
 docs/public/typedoc
+docs/data/*.rules.json

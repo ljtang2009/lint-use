@@ -5,6 +5,9 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
+    "paths": {
+      "object-visualizer": ["./node_modules/object-visualizer/dist/main.d.ts"]
+    },
 
     // Language and Environment
     "target": "esnext",
@@ -17,6 +20,7 @@
   },
   "include": [
     "*.ts",
-    "docs/.vitepress/config.ts"
+    "docs/.vitepress/config.ts",
+    "docs/.vitepress/theme/index.ts"
   ]
 }

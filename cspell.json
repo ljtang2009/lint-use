@@ -44,12 +44,17 @@
     {
       "name": "package_author",
       "pattern": ["/\\s*\"author\":.*/"]
+    },
+    {
+      "name": "npm_module_scope",
+      "pattern": ["/@.*//"]
     }
   ],
   "languageSettings": [
     {
       "languageId": "*",
-      "locale": "*"
+      "locale": "*",
+      "ignoreRegExpList": ["npm_module_scope"]
     },
     {
       "languageId": "yaml",
