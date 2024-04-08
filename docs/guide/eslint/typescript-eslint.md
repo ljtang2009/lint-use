@@ -72,7 +72,7 @@ export default [
 ## Rules Reference
 
 <script setup>
-import { data } from '../../scripts/rules.data.js'
+import { data } from '@/scripts/rules.data.js'
 </script>
 <ObjectVisualizer
   :data="data['eslint.ts.rules']"
