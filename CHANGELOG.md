@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/ljtang2009/lint-use/compare/v1.2.2...v1.3.0) (2024-04-08)
+
+
+### Features
+
+* **src:** :sparkles: add prettier config ([4deefb4](https://github.com/ljtang2009/lint-use/commit/4deefb40f32362ecd9bd2fd504f2383c7f5bb8ba))
+
 ## [1.2.2](https://github.com/ljtang2009/lint-use/compare/v1.2.1...v1.2.2) (2024-04-06)
 
 
